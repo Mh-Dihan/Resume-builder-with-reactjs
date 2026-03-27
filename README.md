@@ -2,7 +2,7 @@
 
 A modern, feature-rich React application for building professional resumes with live preview, multiple templates, and PDF download capabilities.
 
-  => Features
+ -> Features
 
 -  Live Preview - See changes instantly as you type
 -  Multiple Templates - Choose from 3 professionally designed templates
