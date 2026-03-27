@@ -1,4 +1,4 @@
-# ResumeForge - Smart Resume Builder
+Resume Builder
 
 A modern, feature-rich React application for building professional resumes with live preview, multiple templates, and PDF download capabilities.
 
