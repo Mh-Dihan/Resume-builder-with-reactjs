@@ -10,5 +10,5 @@ A modern, feature-rich React application for building professional resumes with 
 -  Dark Mode - Toggle between light and dark themes
 -  Responsive Design - Works seamlessly on desktop and mobile
 -  Smooth Animations - Beautiful transitions and micro-interactions
--  Comprehensive Form - Personal info, summary, experience, education, skills, languages, Projects(Edit Comprehensive Form's name)
+-  Comprehensive Form - Personal info, summary, experience, education, skills, languages, Projects
 
