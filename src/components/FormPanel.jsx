@@ -89,7 +89,7 @@ Education:
                 </div>
 
                 <div className="form-section">
-                    <h3><i className="fas fa-wand-magic-sparkles"></i> Generate From Description</h3>
+                    <h3 className="form-section-title centered-title"><i className="fas fa-wand-magic-sparkles"></i> Generate From Description</h3>
                     <p className="helper-text">
                         Paste a plain-English description with personal details, skills, experience, and education.
                         The app will convert it into an editable resume.
@@ -118,7 +118,7 @@ Education:
 
                 {/* Template Selection */}
                 <div className="form-section">
-                    <h3><i className="fas fa-palette"></i> Choose Template</h3>
+                    <h3 className="form-section-title centered-title"><i className="fas fa-palette"></i> Choose Template</h3>
                     <div className="template-selector">
                         {templates.map(template => (
                             <button
@@ -214,12 +214,12 @@ Education:
 
                 {/* Experience */}
                 <div className="form-section">
-                    <h3>
-                        <i className="fas fa-briefcase"></i> Experience
+                    <h3 className="form-section-title centered-title"><i className="fas fa-briefcase"></i> Experience</h3>
+                    <div className="section-action-row">
                         <button className="add-btn" onClick={addExperience}>
                             <FaPlus /> Add
                         </button>
-                    </h3>
+                    </div>
                     <AnimatePresence>
                         {experience.map((exp) => (
                             <motion.div
@@ -285,12 +285,12 @@ Education:
                 </div>
 
                 <div className="form-section">
-                    <h3>
-                        <i className="fas fa-diagram-project"></i> Projects
+                    <h3 className="form-section-title centered-title"><i className="fas fa-diagram-project"></i> Projects</h3>
+                    <div className="section-action-row">
                         <button className="add-btn" onClick={addProject}>
                             <FaPlus /> Add
                         </button>
-                    </h3>
+                    </div>
                     <AnimatePresence>
                         {projects.map((project) => (
                             <motion.div
@@ -346,12 +346,12 @@ Education:
 
                 {/* Education */}
                 <div className="form-section">
-                    <h3>
-                        <i className="fas fa-graduation-cap"></i> Education
+                    <h3 className="form-section-title centered-title"><i className="fas fa-graduation-cap"></i> Education</h3>
+                    <div className="section-action-row">
                         <button className="add-btn" onClick={addEducation}>
                             <FaPlus /> Add
                         </button>
-                    </h3>
+                    </div>
                     <AnimatePresence>
                         {education.map((edu) => (
                             <motion.div
@@ -407,7 +407,7 @@ Education:
 
                 {/* Skills */}
                 <div className="form-section">
-                    <h3><i className="fas fa-code"></i> Skills</h3>
+                    <h3 className="form-section-title centered-title"><i className="fas fa-code"></i> Skills</h3>
                     <div className="tags-container">
                         {skills.map(skill => (
                             <span key={skill} className="tag">
@@ -430,7 +430,7 @@ Education:
 
                 {/* Languages */}
                 <div className="form-section">
-                    <h3><i className="fas fa-language"></i> Languages</h3>
+                    <h3 className="form-section-title centered-title"><i className="fas fa-language"></i> Languages</h3>
                     <div className="tags-container">
                         {languages.map(lang => (
                             <span key={lang} className="tag">

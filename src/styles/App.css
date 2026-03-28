@@ -50,12 +50,18 @@
 }
 
 .panel-title-row {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.75rem;
+    padding: 0.9rem 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.75rem;
+    background: var(--card-bg);
 }
 
 .panel-title-row h2 {
     font-size: 1.35rem;
     color: var(--text-primary);
+    text-align: center;
+    margin: 0;
 }
 
 .form-section {
@@ -85,6 +91,13 @@
 
 .form-section-title.centered-title {
     justify-content: center;
+}
+
+.section-action-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -0.25rem;
+    margin-bottom: 1rem;
 }
 
 .helper-text {
